@@ -923,6 +923,7 @@ class RpmPluginTest extends ProjectSpec {
         scan.format.signature.getEntry(Signature.SignatureTag.LEGACY_PGP) == null
     }
 
+    @Ignore
     def 'Does include signature header'() {
         given:
         Project project = ProjectBuilder.builder().build()

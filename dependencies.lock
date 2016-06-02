@@ -13,8 +13,8 @@
             "requested": "1.2.2"
         },
         "org.vafer:jdeb": {
-            "locked": "1.4",
-            "requested": "1.4"
+            "locked": "1.5",
+            "requested": "1.5"
         }
     },
     "compileClasspath": {
@@ -31,8 +31,8 @@
             "requested": "1.2.2"
         },
         "org.vafer:jdeb": {
-            "locked": "1.4",
-            "requested": "1.4"
+            "locked": "1.5",
+            "requested": "1.5"
         }
     },
     "compileOnly": {
@@ -49,8 +49,8 @@
             "requested": "1.2.2"
         },
         "org.vafer:jdeb": {
-            "locked": "1.4",
-            "requested": "1.4"
+            "locked": "1.5",
+            "requested": "1.5"
         }
     },
     "default": {
@@ -67,8 +67,8 @@
             "requested": "1.2.2"
         },
         "org.vafer:jdeb": {
-            "locked": "1.4",
-            "requested": "1.4"
+            "locked": "1.5",
+            "requested": "1.5"
         }
     },
     "jacocoAgent": {
@@ -95,8 +95,8 @@
             "requested": "1.2.2"
         },
         "org.vafer:jdeb": {
-            "locked": "1.4",
-            "requested": "1.4"
+            "locked": "1.5",
+            "requested": "1.5"
         }
     },
     "testCompile": {
@@ -117,8 +117,8 @@
             "requested": "1.2.2"
         },
         "org.vafer:jdeb": {
-            "locked": "1.4",
-            "requested": "1.4"
+            "locked": "1.5",
+            "requested": "1.5"
         }
     },
     "testCompileClasspath": {
@@ -139,8 +139,8 @@
             "requested": "1.2.2"
         },
         "org.vafer:jdeb": {
-            "locked": "1.4",
-            "requested": "1.4"
+            "locked": "1.5",
+            "requested": "1.5"
         }
     },
     "testCompileOnly": {
@@ -161,8 +161,8 @@
             "requested": "1.2.2"
         },
         "org.vafer:jdeb": {
-            "locked": "1.4",
-            "requested": "1.4"
+            "locked": "1.5",
+            "requested": "1.5"
         }
     },
     "testRuntime": {
@@ -183,8 +183,8 @@
             "requested": "1.2.2"
         },
         "org.vafer:jdeb": {
-            "locked": "1.4",
-            "requested": "1.4"
+            "locked": "1.5",
+            "requested": "1.5"
         }
     }
 }

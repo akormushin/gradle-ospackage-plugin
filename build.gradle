@@ -45,7 +45,7 @@ dependencies {
         // Where logging goes is a runtime decision
         exclude group: 'org.slf4j', module: 'slf4j-log4j12'
     }
-    compile('org.vafer:jdeb:1.4') {
+    compile('org.vafer:jdeb:1.5') {
         // Individual listing so that they translate into the pom file
         exclude group: 'org.apache.maven', module: 'maven-core'
         exclude group: 'org.apache.maven', module: 'maven-plugin-api'
@@ -130,6 +130,18 @@ pluginBundle {
             displayName = 'Nebula RPM Packaging Plugin'
             description = 'Create RPM system packages'
             tags = ['nebula', 'rpm', 'centos']
+        }
+    }
+}
+
+artifactory {
+    contextUrl = "http://artifactory.yandex.net/artifactory/"   //The base Artifactory URL if not overridden by the publisher/resolver
+    publish {
+        repository {
+            repoKey = 'yandex_market_releases'
+            username = "yandexmarketdeploy"
+            password = "yandexmarketdeploy"
+            maven = true
         }
     }
 }
